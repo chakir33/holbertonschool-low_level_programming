@@ -3,7 +3,7 @@
 /**
  *main - main function
  *
- *Description: This function prints a phrase using puts.
+ *Description:This function prints a phrase using puts.
  *
  *Return: Always returns 0 for success
  */
