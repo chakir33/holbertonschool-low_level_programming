@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  *  main - dhhijdtyhjdt
  * Return: return 0
  **/
-
 
 int main(void)
 {
