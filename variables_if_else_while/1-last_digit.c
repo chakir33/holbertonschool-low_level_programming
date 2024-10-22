@@ -4,13 +4,16 @@
 
 /**
  *  main - dhhijdtyhjdt
+ *
+ *  Description: blalbla
+ *
  * Return: return 0
  **/
 
-int main(void)
 	int main(void)
 {
 	int n, l_digit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	l_digit = n % 10;
