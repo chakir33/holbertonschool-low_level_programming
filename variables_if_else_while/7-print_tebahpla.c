@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- *  maiin - ddhhijdtyhjdt
+ *  maiin - Entry point
  *
- *  Description: blalbla
+ *  Description: print alphabet reverse
  *
  * Return: return 0
  **/
