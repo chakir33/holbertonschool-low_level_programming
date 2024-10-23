@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *  maiin - Entry point
+ *  main - Entry point
  *
  *  Description: print alphabet reverse
  *
@@ -14,10 +14,9 @@
 {
 	char c;
 
-	for (c = 'z'; c <= 'a'; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		if ((c != 'e') && (c != 'q'))
-			putchar(c);
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
