@@ -5,7 +5,7 @@
  *
  * @n: character maj and min and print
  *
- * Return: Always 0.
+ * Return: Always 0,-1,1.
  **/
 
 int print_sign(int n)
@@ -17,15 +17,15 @@ int print_sign(int n)
 		return (1);
 	}
 
-	else if (n == 0)
+	else if (n < 0)
 	{
-		_putchar (0);
-		return (0);
+		_putchar ('-');
+		return (-1);
 
 	}
 	else
 	{
-		_putchar (-1);
-		return (-1);
+		_putchar (0);
+		return (0);
 	}
 }
