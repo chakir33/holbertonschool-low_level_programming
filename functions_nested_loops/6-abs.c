@@ -3,12 +3,21 @@
 /**
  * int _abs - check the code
  *
- * @d: character
+ * @n: character
  *
- * Return: Always 
+ * Return: Always
  **/
 
-int _abs(int)
+int _abs(int n)
 {
-	int n=5
-
+	{
+		if (n < 0)
+		{
+			return (n * -1);
+		}
+		else
+		{
+			return (n);
+		}
+	}
+}
