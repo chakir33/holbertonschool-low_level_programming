@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print number 1 to 14
+ * more_numbers - print number 1 to 14
  * Return: return 1 to 14 *10
  **/
 
