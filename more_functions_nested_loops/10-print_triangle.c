@@ -10,6 +10,10 @@ void print_triangle(int size)
 	int ligne = 1;
 	int hash;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 	while (ligne <= size)
 	{
 		{
