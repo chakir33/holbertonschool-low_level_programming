@@ -2,12 +2,23 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * *_strcpy - copy un pointeur for a other
  *
- * Return: Always 0.
+ * @src: first pointeur
+ * @dest: second pointeur
+ *
+ * Return: a copy.
  */
 char *_strcpy(char *dest, char *src)
 {
-	int c;
+	char *cpydest = dest;
 
-	for (c = 0; 
+	while (*src != '\0')
+	{
+		*dest = *src;
+	dest++;
+	src++;
+	*dest = '\0';
+	}
+	return (cpydest);
+}
