@@ -1,7 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code for
+ * print_array - print whith , and escpace
+ *
+ * @a: pointeur
+ * @n: valeur
  *
  * Return: Always 0.
  */
