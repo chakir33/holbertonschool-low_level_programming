@@ -4,11 +4,12 @@
 /**
  * string_toupper - code
  *
- * @str: pointeur
+ * @str : pointeur
  *
  * Return: Always 0.
  */
-char *string_toupper(char *)
+
+char *string_toupper(char *str)
 {
 	int i;
 
