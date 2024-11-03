@@ -17,5 +17,4 @@ int _strlen(char *s)
 		s++;
 	}
 	return (compteur);
-	return (0);
 }
