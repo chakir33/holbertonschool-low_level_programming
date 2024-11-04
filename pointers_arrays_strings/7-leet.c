@@ -6,16 +6,21 @@
  *
  * @str : pointeur
  */
-char *leet(char *)
+char *leet(char *str)
 {
-	int lon = 0;
-	int moit;
+	int i;
+	int i_mtts;
+	char min[] = "aeotl";
+	char maj[] = "AEOTL";
+	char replace[] = "43071";
 
-	while (str[lon] != '\0')
-		lon++;
-	for (moit = lon / 2; moit < lon; moit++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-	_putchar(str[moit]);
+		for (i_mtts = 0; i_mtts < 5; i_mtts++)
+		{
+		if (str[i] == min[i_mtts] || str[i] == maj[i_mtts])
+			str[i] = replace[i_mtts];
+		}
 	}
-	_putchar('\n');
+	return (str);
 }
