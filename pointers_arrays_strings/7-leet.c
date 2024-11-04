@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * puts_half - code
+ *leet - code with minuscucle maj and char
  *
  * @str : pointeur
  */
