@@ -6,15 +6,14 @@
  *
  * @str : pointeur
  */
-
-void puts_half(char *str)
+char *leet(char *)
 {
-	int  size = 0;
+	int lon = 0;
 	int moit;
 
-	while (str[size] != '\0')
-		size++;
-	for (moit = size / 2; moit < size; moit++)
+	while (str[lon] != '\0')
+		lon++;
+	for (moit = lon / 2; moit < lon; moit++)
 	{
 	_putchar(str[moit]);
 	}
