@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "2-sterlen.c"
 
 /**
  * *_strcat - 2 string
