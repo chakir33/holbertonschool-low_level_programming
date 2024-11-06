@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main - print number of argv
+ * main - print word after ./ and \n
  * @argv: name
  * @argc: number of argv
  * Return: argv.
