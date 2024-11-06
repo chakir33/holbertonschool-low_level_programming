@@ -2,11 +2,28 @@
 #include <stdio.h>
 
 /**
- * is_prime_number - number first
+ * check_prime - i un nombre est divisible par un diviseur.
  *
- * @n: number
+ * @n: Le nombre à tester.
+ * @i: Le diviseur à tester.
  *
- * Return: zero or one.
+ * Return: 1 si n est premier, sinon 0.
+ */
+int check_prime(int n, int i)
+{
+	if (i * i > n)
+		return (1);
+	if (n % i == 0)
+		return (0);
+	return (check_prime(n, i + 1));
+}
+
+/**
+ * is_prime_number - vérifier si un nombre est premier.
+ *
+ * @n: Le nombre à tester.
+ *
+ * Return: 1 si le nombre est premier, sinon 0.
  */
 int is_prime_number(int n)
 {
@@ -16,6 +33,7 @@ int is_prime_number(int n)
 		return (1);
 	if (n % 2 == 0)
 		return (0);
-	else
-		return (1);
+
+	return (check_prime(n, 3));
 }
+
